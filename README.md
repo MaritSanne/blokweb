@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Marit Hooijschuur
 
   #### Je startniveau:
-  hier je startniveau (blauw)
+  blauw
 
   #### Je focus:
-  hier je focus (surface plane)
+  surface plane
  
 </details>
 
@@ -58,8 +58,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+<li>De screenreader praat snel.</li>
+<li>Structuur is logisch van screenreader.</li>
+<li>Belangrijk dat een website een duidelijke screenreader heeft.</li>
+<li>De WCAG lijst bepaald niet of je website goed is of niet.</li>
+<li>Er zijn veel dingen waar je mee rekening moet houden bij het maken van een website.</li>
 
+  Spelen met de screenreader:
+  is de structuur logisch? Geeft elk kopje goed aan wat er onder het kopje valt? Geeft elke link goed aan waar naartoe gelinkt wordt? --> De screenreader praat heel snel maar de structuur is wel logisch. Geeft duidelijk aan wat er geselecteerd is en vertelt ook hoe je bijvoorbeeld een knop kunt activeren. 
+
+  WCAG checklist:
+  <img src="readme-images/WCAGpage1.png" width="375px" alt="afbeelding van pagina 1 WCAG">
+  <img src="readme-images/WCAGpage2.png" width="375px" alt="afbeelding van pagina 2 WCAG">  
+  <img src="readme-images/WCAGpage3.png" width="375px" alt="afbeelding van pagina 3 WCAG">  
+  <img src="readme-images/WCAGpage4.png" width="375px" alt="afbeelding van pagina 4 WCAG">  
+  <img src="readme-images/WCAGpage5.png" width="375px" alt="afbeelding van pagina 5 WCAG">
 </details>
+
+
+
+
 
 
 
