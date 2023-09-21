@@ -64,9 +64,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <li>De WCAG lijst bepaald niet of je website goed is of niet.</li>
 <li>Er zijn veel dingen waar je mee rekening moet houden bij het maken van een website.</li>
 
-<p>
   Spelen met de screenreader:
-  is de structuur logisch? Geeft elk kopje goed aan wat er onder het kopje valt? Geeft elke link goed aan waar naartoe gelinkt wordt? --> De screenreader praat heel snel maar de structuur is wel logisch. Geeft duidelijk aan wat er geselecteerd is en vertelt ook hoe je bijvoorbeeld een knop kunt activeren. </p>
+  is de structuur logisch? Geeft elk kopje goed aan wat er onder het kopje valt? Geeft elke link goed aan waar naartoe gelinkt wordt? --> De screenreader praat heel snel maar de structuur is wel logisch. Geeft duidelijk aan wat er geselecteerd is en vertelt ook hoe je bijvoorbeeld een knop kunt activeren. 
 
   WCAG checklist:
   <p>
@@ -88,15 +87,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  Voordat ik begon aan het coderen, heb ik een breakdownschets gemaakt. Het geeft me een voorproefje van hoe ik alles moet coderen voordat ik aan de slag ga. Dit stappenplan helpt me georganiseerd te blijven en eventuele problemen vroeg te spotten. Kortom, het maken van een breakdownschets is super handig, zodat het overzichtelijk blijft en direct een basis is voor mijn site. 
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+
 
 </details>
 
@@ -112,9 +113,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+--> mijn drop down menu geprobeerd maar werkte niet + afbeeldingen 
+  <img src="readme-images/breakdown1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
+Voor de rest verliep alles goed en als ik vragen had kon ik terecht bij de docent. 
+
+  ### Agenda voor meeting (14 september 2023)
+  Tijdens deze meeting ben ik samen met mijn groepje en de docent gaan zitten. 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -124,12 +130,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  Tijdens de eerste meeting met de docent en andere studenten heb ik de vragen van andere studenten
+  bekeken en erachter komen hoe hun het oplossen. Dit was erg handig ook voor mij, omdat ik wellicht
+  dezelfde problemen tegen ga komen. Daarna heb ik mijn eigen werk laten zien en een aantal vragen
+  gesteld waarmee ik vast liep. Ik kreeg te horen dat ik heel goed op weg was en gewoon zo door moest
+  gaan!
+Bevindingen tijdens meeting:
+  - Goed opweg, gewoon zo door gaan.
+  - Op sommige plekken wel nog gebruik van classes, maar dat is tot nu toe wel prima gebruikt, ofwel niet te veel. 
 
 </details>
 
@@ -137,7 +145,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 3 - 21 september 2023)
 
 <details>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>

@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,8 +17,8 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #eee;
 }
 
 
@@ -29,3 +31,197 @@
 
 /* jouw code */
 
+* {
+	box-sizing: border-box;
+	font-family: "Poppins", system-ui, -apple-system, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+main>* {
+	margin: 6%;
+}
+
+
+/* Stel de positie in voor de eerste section */
+.section1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1; /* Zorg ervoor dat de eerste section bovenop de tweede wordt weergegeven */
+}
+
+
+main section:nth-of-type(2) {
+	background-color: #2C2057;
+	color: white;
+	padding-bottom: 35px;
+	justify-content: flex-start;
+	/* Uitlijnen aan de linkerkant */
+	flex-direction: column;
+	/* Plaats items in kolomrichting */
+	margin: 0;
+}
+
+main section:nth-of-type(2) h1 {
+	font-weight: 700;
+	font-size: 50px;
+	line-height: 1;
+	margin: 8%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+main section:nth-of-type(2) p, a {
+	margin: 6%;
+}
+
+main section:first-of-type img {
+	width: 17%;
+}
+
+.afbeeldingfles {
+	width: 100%;
+	clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 80%);
+}
+
+.shop-knop {
+	background-color: #ff5f0f;
+	border: none;
+	padding: 8px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	/* Horizontaal centreren */
+	align-items: center;
+	/* Verticaal centreren */
+}
+
+.flessen-knop {
+	background-color: #782cc3;
+	border: none;
+	padding: 8px;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-radius: 25px;
+	font-weight: 600;
+	font-size: 23px;
+	display: flex;
+	justify-content: center;
+	/* Horizontaal centreren */
+	align-items: center;
+	/* Verticaal centreren */
+}
+
+a {
+	text-decoration: none;
+	color: #FFFF;
+}
+
+
+p {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 37px;
+	line-height: 1;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	color: #363636;
+}
+
+.schuinetekst {
+	font-style: italic;
+}
+
+nav {
+	background-color: #782cc3;
+	/* Achtergrondkleur van de navigatiebalk */
+	position: fixed;
+	bottom: 0;
+	z-index: 3;
+}
+
+ul.navbar {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	/* Verdeel de items gelijkmatig over de breedte */
+	align-items: flex-end;
+	/* Plaats de tekst aan de onderkant van de balk */
+	font-size: 12px;
+	color: white;
+}
+
+ul.navbar li {
+	text-align: center;
+	padding: 20px;
+}
+
+ul.navbar li img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	/* Zorg ervoor dat het pictogram in het midden van de container wordt weergegeven */
+	margin: 0 auto;
+	/* Centreer het pictogram horizontaal */
+}
+
+nav img {
+	width: 30px;
+	height: 30px;
+	padding-bottom: 20px;
+	background-color: #2C2057;
+}
+
+
+.hoehetwerkt {
+	max-width: 100%;
+}
+
+article h3 {
+	padding-bottom: 40px;
+}
+
+video {
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+	margin-top: 70px;
+}
+/* een afbeelding was groter dan de pagina en werkte niet mee. Door de max width op 100% te zetten, 
+zou de video op het scherm moeten passen, maar dat gebeurde niet. Met hulp van de docent kwamen we 
+tot de conlussie dat de max-width: 88% moest zijn, maar zodra ik dan zou spelen met de margin dan 
+zou de 88% niet meer kloppen. Uiteindelijk heb ik de video in een section geplaatst, zodat de margin 
+er ook in mee wordt genomen, en toen is het wel gelukt. */
+
+footer {
+	margin: 0;
+	padding: 0;
+}
+
+
+.eerstesectionfooter {
+	background-color: #782cc3;
+	color: white;
+	padding-bottom: 35px;
+	padding-top: 15%;
+	display: flex;
+	/* Voeg flexbox toe voor uitlijning */
+	align-items: center;
+	/* Centreer verticaal */
+	justify-content: flex-start;
+	/* Uitlijnen aan de linkerkant */
+	flex-direction: column;
+	/* Plaats items in kolomrichting */
+	margin-bottom: 180px;
+	clip-path: polygon(0px 20%, 100% 0px, 100% 100%, 0px 100%);
+}
