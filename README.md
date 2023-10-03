@@ -293,9 +293,9 @@ Voordat ik aan de slag ga met css voor mijn tweede pagina, ga ik de css goed sor
 Na wat stoeien om de artikelen mooi responsive te maken is dit me aardig goed gelukt. Wel krijg ik de button (in mijn winkelwagen) niet in het midden van het artikel. 
 
 Ook kreeg ik doordat ik de 2e section op mijn homepagina al had vormgegeven, kreeg ik dat de 2e section op de tweede pagina dat ook ging doen. Dit moet niet. Deze twee headings moeten gewoon standaard onder elkaar blijven. Ik had geprobeerd met een class om dit te voorkomen maar dit werkte niet. Om dit op te lossen heb ik de section uiteindelijk vervangen door een article. 
-<img src="readme-images/classCSS.png" width="375px" alt="d">
-<img src="readme-images/htmlclass.png" width="375px" alt="d">
-<img src="readme-images/oplossingclass.png" width="375px" alt="d">
+<img src="readme-images/classCSS.png" width="375px" alt="css">
+<img src="readme-images/htmlclass.png" width="375px" alt="html">
+<img src="readme-images/oplossingclass.png" width="375px" alt="oplossing">
 
 Het laatste wat ik nu wil oplossen qua css is de positie van mijn winkelwagen. 
 
