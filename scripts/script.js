@@ -54,7 +54,7 @@ function removeOpen(index1) {
 
             // 2. Zoek naar het HTML-element met de klasse "description" binnen de huidige sectie.
             let des = item2.querySelector(".description");
-            
+
             // 3. Stel de hoogte van de "description" in op "0px" om de tekstinhoud te verbergen.
             des.style.height = "0px";
         }
