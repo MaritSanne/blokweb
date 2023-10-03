@@ -60,17 +60,16 @@ a {
 
 
 p {
-	margin-bottom: 15px;
-	margin-top: 15px;
-	font-size: 15px;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-size: 1em;
 }
 
 h2 {
 	font-weight: 700;
-	font-size: 37px;
+	font-size: 2.3em;
 	line-height: 1;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 0.6em;
 	color: #363636;
 }
 
@@ -96,13 +95,13 @@ body nav ul {
 	/* Verdeel de items gelijkmatig over de breedte */
 	align-items: flex-end;
 	/* Plaats de tekst aan de onderkant van de balk */
-	font-size: 12px;
+	font-size: 0.7em;
 	color: white;
 }
 
 body nav ul li {
 	text-align: center;
-	padding: 20px;
+	padding: 1.5em;
 	border-right: 0.01em #2C2057 solid;
 }
 
@@ -121,9 +120,7 @@ body nav ul li:last-child img {
 }
 
 nav img {
-	width: 30px;
-	height: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 1.5em;
 }
 
 
@@ -162,7 +159,7 @@ main section ul:first-of-type {
 }
 
 main section:first-of-type ul li:last-of-type img {
-	border-left: 1px #E0E0E0 solid;
+	border-left: 0.01em #E0E0E0 solid;
 	padding-left: 1.5rem;
 }
 
@@ -188,7 +185,7 @@ main section:nth-of-type(2) {
 
 main section:nth-of-type(2) h1 {
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 3em;
 	line-height: 1;
 	margin: 6%;
 	margin-top: 0;
@@ -213,11 +210,11 @@ main section:nth-of-type(2) img {
 main section:nth-of-type(2) a {
 	background-color: #ff5f0f;
 	border: none;
-	margin-left: 50px;
-	margin-right: 50px;
-	border-radius: 25px;
+	margin-left: 3em;
+	margin-right: 3em;
+	border-radius: 1.5em;
 	font-weight: 600;
-	font-size: 23px;
+	font-size: 1.4em;
 	display: flex;
 	justify-content: center;
 	/* Horizontaal centreren */
@@ -226,12 +223,13 @@ main section:nth-of-type(2) a {
 	padding: 0.1em;
 }
 
+
 main section:nth-of-type(4) a {
 	background-color: #ff5f0f;
 	border: none;
-	border-radius: 25px;
+	border-radius: 1.5em;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.4em;
 	display: flex;
 	justify-content: center;
 	/* Horizontaal centreren */
@@ -249,9 +247,9 @@ main section:nth-of-type(3) p:last-of-type {
 main section:nth-of-type(6) a {
 	background-color: #782cc3;
 	border: none;
-	border-radius: 25px;
+	border-radius: 1.5em;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.4em;
 	display: flex;
 	justify-content: center;
 	/* Horizontaal centreren */
@@ -284,8 +282,8 @@ er ook in mee wordt genomen, en toen is het wel gelukt. */
 
 
 /*voor de dropdown */
-.accordion {
-	max-width: 530px;
+main section:nth-of-type(4) div div {
+	max-width: 30em;
 	background: #FFF;
 	margin: 6%;
 
@@ -293,17 +291,15 @@ er ook in mee wordt genomen, en toen is het wel gelukt. */
 
 .accordion .accordion-content {
 	margin: 0;
-	border-radius: 4px;
 	overflow: hidden;
 }
 
-.accordion header {
-	border-bottom: 1px solid grey;
+main section:nth-of-type(4) div div header {
+	border-bottom: 0.01em solid grey;
 }
 
 .accordion-content header {
 	display: flex;
-	min-height: 50px;
 	cursor: pointer;
 	align-items: center;
 	justify-content: space-between;
@@ -311,14 +307,14 @@ er ook in mee wordt genomen, en toen is het wel gelukt. */
 }
 
 .accordion-content header .title {
-	font-size: 20px;
+	font-size: 1.3em;
 	font-weight: 700;
 	color: #333;
 }
 
 .accordion-content .description {
 	height: 0;
-	font-size: 12px;
+	font-size: 1em;
 	color: #333;
 	font-weight: 400;
 	transition: all 0.2s linear;
@@ -329,7 +325,7 @@ er ook in mee wordt genomen, en toen is het wel gelukt. */
 /* Definieer stijlen voor secties die geopend zijn */
 .accordion-content.open .description {
 	height: auto;
-	padding-bottom: 10px;
+	padding-bottom: 0.4em;
 }
 
 
@@ -348,7 +344,7 @@ ul.breadcrumb {
 ul.breadcrumb li {
 	/* Display list items side by side */
 	display: inline;
-	font-size: 13px;
+	font-size: 1em;
 }
 
 ul.breadcrumb li a {
@@ -361,7 +357,6 @@ ul.breadcrumb li a {
 }
 
 
-
 /*articles 2e pagina*/
 .article2 {
 	background-color: #FFF;
@@ -370,8 +365,13 @@ ul.breadcrumb li a {
 	margin-bottom: 2em;
 }
 
-.article2 h2, form {
+.article2 h2,
+form {
 	margin-left: 6%;
+}
+
+main form:last-of-type{
+	text-align: center;
 }
 
 form:last-of-type {
@@ -399,7 +399,7 @@ form:last-of-type {
 }
 
 article h3 {
-margin-bottom: 1em;
+	margin-bottom: 1em;
 }
 
 main section article form fieldset button {
@@ -437,11 +437,11 @@ main section article form button {
 	padding-right: 2em;
 	border-radius: 20em;
 	font-weight: 600;
-	font-size: 23px;
+	font-size: 1.4em;
 }
 
 main section article form button:hover {
-	background-color:#ff5f0f;
+	background-color: #ff5f0f;
 	transition: all ease 1s;
 }
 
@@ -457,9 +457,9 @@ main section article form button:hover {
 input[type=text],
 select {
 	width: 100%;
-	padding: 12px;
-	border: 1px solid #782cc3;
-	border-radius: 5px;
+	padding: 1em;
+	border: 0.01em solid #782cc3;
+	border-radius: 0.6em;
 	margin-bottom: 1em;
 }
 
@@ -469,9 +469,9 @@ input[type=submit] {
 	color: white;
 	background-color: #ff5f0f;
 	border: none;
-	border-radius: 25px;
+	border-radius: 20em;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 1.4em;
 	display: flex;
 	justify-content: center;
 	/* Horizontaal centreren */
@@ -481,8 +481,8 @@ input[type=submit] {
 }
 
 form {
-	border-radius: 5px;
-	padding: 20px;
+	border-radius: 0.6em;
+	padding: 1em;
 }
 
 /*footer*/
@@ -508,7 +508,7 @@ footer section:last-of-type ul img {
 
 footer section:last-of-type {
 	background-color: #F0F0F0;
-	padding-right: 20px;
+	padding-right: 1em;
 	padding: 6%;
 }
 
@@ -516,7 +516,7 @@ footer section:last-of-type ul:first-of-type {
 	list-style-type: none;
 	display: grid;
 	grid-template-columns: repeat(3, 25%);
-	font-size: 10px;
+	font-size: 0.8em;
 	color: #782cc3;
 	padding-left: 5%;
 	margin-bottom: 2.5em;
@@ -540,10 +540,10 @@ footer section:last-of-type ul:last-of-type li {
 footer section:last-of-type ul:last-of-type li a {
 	margin: auto;
 	display: inline-block;
-	font-size: 13px;
+	font-size: 1em;
 	border-radius: 10em;
 	padding: 0.6em;
-	border: 1px solid #782cc3;
+	border: 0.1em solid #782cc3;
 	margin-bottom: 0.7em;
 }
 
@@ -555,7 +555,6 @@ footer section:first-of-type {
 	background-color: #782cc3;
 	color: white;
 	padding-top: 20%;
-	/* Aangepaste padding-instellingen */
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -579,8 +578,9 @@ footer section:first-of-type p {
 	}
 
 	main section:nth-of-type(2) {
-		padding-bottom: 35px;
+		padding-bottom: 2em;
 	}
+
 }
 
 
@@ -592,7 +592,7 @@ footer section:first-of-type p {
 
 	body nav ul li {
 		text-align: center;
-		padding: 20px;
+		padding: 1.4em;
 		padding-bottom: 0;
 		padding-top: 0;
 		border-right: 0.01em #E0E0E0 solid;
@@ -604,16 +604,13 @@ footer section:first-of-type p {
 		border-radius: 20em;
 		height: 1em;
 		background-color: #FFF;
-		border: 0.5px solid #E0E0E0;
-		/* Achtergrondkleur */
+		border: 0.01em solid #E0E0E0;
 		border-radius: 10em;
-		/* Afronding van de hoeken */
 		display: flex;
 		align-items: center;
 		gap: 1.5em;
 		/* Ruimte tussen de items */
 		padding: 2%;
-		/* Binnenste vulling */
 		list-style: none;
 		margin-top: 2.5em;
 		position: fixed;
@@ -653,18 +650,16 @@ footer section:first-of-type p {
 		display: grid;
 		grid-template-columns: 2fr 1fr;
 		/* Twee kolommen, eerste kolom 1 deel, tweede kolom 2 delen */
-		gap: 0px;
-		/* Ruimte tussen de kolommen */
-		font-size: 13px;
+		font-size: 0.9em;
 	}
 
 	footer section:first-of-type input:last-of-type {
 		background-color: #ff5f0f;
 		color: white;
 		border: none;
-		padding: 8px;
+		padding: 0.8em;
 		border-radius: 25em;
-		font-size: 13px;
+		font-size: 1em;
 		font-weight: 600;
 		cursor: pointer;
 		width: 30%;
@@ -688,13 +683,41 @@ footer section:first-of-type p {
 
 
 	main section:nth-of-type(2) div h1 {
-		font-size: 35px;
+		font-size: 2.2em;
 	}
 
 	main section:nth-of-type(2) div a {
-		font-size: 20px;
+		font-size: 1.2em;
 		max-width: 15em;
 
+	}
+
+	/*tweedepagina*/
+	main section.pagina2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 0.7em;
+		font-size: 1.2em;
+	}
+
+	.article2 h2 {
+		font-size: 1em;
+		padding-bottom: 0.7em;
+	}
+
+	main section article form button {
+		background-color: #782cc3;
+		color: white;
+		border: none;
+		padding: 0.3em;
+		padding-left: 2em;
+		padding-right: 2em;
+		border-radius: 20em;
+		font-size: 0.8em;
+	}
+
+	fieldset input {
+		font-size: 1em;
 	}
 
 }
@@ -711,7 +734,7 @@ footer section:first-of-type p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		/* Twee kolommen, eerste kolom 1 deel, tweede kolom 2 delen */
-		gap: 10px;
+		gap: 0.7em;
 		/* Ruimte tussen de kolommen */
 	}
 
@@ -723,7 +746,7 @@ footer section:first-of-type p {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		/* Twee kolommen, eerste kolom 1 deel, tweede kolom 2 delen */
-		gap: 10px;
+		gap: 0.7em;
 		/* Ruimte tussen de kolommen */
 	}
 
@@ -736,7 +759,28 @@ footer section:first-of-type p {
 	main section:nth-of-type(7) {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		gap: 10px;
+		gap: 0.7em;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+	/*tweedepagina*/
+	main section.pagina2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 1em;
+		font-size: 1.2em;
 	}
 
+	main section article form button {
+		background-color: #782cc3;
+		color: white;
+		border: none;
+		padding: 0.3em;
+		padding-left: 2em;
+		padding-right: 2em;
+		border-radius: 20em;
+		font-size: 0.7em;
+	}
 }

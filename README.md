@@ -290,8 +290,21 @@ Morgen is dus de laatste dag en dan ga ik werken aan:
 ### Dinsdag 3 oktober
 Voordat ik aan de slag ga met css voor mijn tweede pagina, ga ik de css goed sorteren, zodat ik alles uiteindelijk snel terug kan vinden. Om de opmaak voor de tweede pagina te maken, heb ik gebruik gemaakt van classes. Dit omdat ik op mijn eerste pagina bijvoorbeeld de tweede section heb, en die heb ik in css een grid gegeven. De tweede section op mijn tweede pagina, neemt dan ook die style aan. Dit moet niet, dus ik heb dit opgelost door classes te gebruiken. Ik neem aan dat dat mag, want tijdens de les toen ik vroeg hoe ik de tweede body background een andere kleur kreeg, ik ook een class aan de body moest geven. 
 
+Na wat stoeien om de artikelen mooi responsive te maken is dit me aardig goed gelukt. Wel krijg ik de button (in mijn winkelwagen) niet in het midden van het artikel. 
 
+Ook kreeg ik doordat ik de 2e section op mijn homepagina al had vormgegeven, kreeg ik dat de 2e section op de tweede pagina dat ook ging doen. Dit moet niet. Deze twee headings moeten gewoon standaard onder elkaar blijven. Ik had geprobeerd met een class om dit te voorkomen maar dit werkte niet. Om dit op te lossen heb ik de section uiteindelijk vervangen door een article. 
+<img src="readme-images/classCSS.png" width="375px" alt="d">
+<img src="readme-images/htmlclass.png" width="375px" alt="d">
+<img src="readme-images/oplossingclass.png" width="375px" alt="d">
 
+Het laatste wat ik nu wil oplossen qua css is de positie van mijn winkelwagen. 
+
+Nu ga ik mijn bevindingen uit de WCAG test en spelen met screenreader toepassen. Ik wil dat de screenreader netjes mijn site voorleest. Ik ga letten op:
+- goeie en duidelijke alt voor mijn afbeeldingen en videos. 
+- goeie logische volgordes van headings. 
+- maar 1 H1 per pagina. 
+
+Nadat ik dit heb gedaan, ga ik mijn code snel checken en vallideren. Weer geeft die dezelfde fouten aan. Maar deze verdwijnen na 2 keer opslaan weer. Ik en de studentassistent komen er allebei niet uit. Ik heb de screenreader nog eens aangezet. De afbeeldingen en videos worden netjes verteld, maar de spans met de class sr-only wordt niet uitgesproken. Ook worden de streeptjes die ik in de alt (voorbeeld_voor_alt) uitgesproken. Dit moet niet dus heb ik in de alt de _ verwijderd. Ook heb ik alle px verwijderd uit mijn css. De classes die er nu nog in staan, moeten blijven vanwege de vormgeving. 
 
 </details>
 
@@ -302,19 +315,44 @@ Voordat ik aan de slag ga met css voor mijn tweede pagina, ga ik de css goed sor
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/resultaat1.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat2.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat3.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat4.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat5.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat6.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat7.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat8.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat9.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat10.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat11.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat12.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/resultaat13.png" width="375px" alt="uitkomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  <img src="readme-images/geleerd_@media.png" width="375px" alt="top">
+Werken met de @media ging me verrassend goed. Toen ik in de les hoorde dat ik plots beter mijn site responsive kon maken, schoot ik lichtelijk in de stress. Ik had echt geen flauw idee hoe ik met @media screen moest werken, maar dit werd na even wat onderzoeken en uittesten me al snel duidelijk. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/geleerd_ipvclasses.png" width="375px" alt="top">
+Ook heb ik geleerd hoe ik mijn classes kan verminderen. In voorafgaande projecten gebruikte ik voor alles een class om deze vorm te geven, maar dit kan dus ook door de manier hierboven in de afbeelding.
+
+  <img src="readme-images/geleerd_grid.png" width="375px" alt="top">
+  Om bij een groter scherm de sections naast elkaar te krijgen, heb ik gebruik gemaakt van grid. Dit hebben we in de werkgroepen geleerd en de oefeningetjes die we met codepen hebben gedaan in de lessen, hebben me zeker geholpen om dit te begrijpen. 
+
+
+Al met al ben ik wel erg trots op wat ik heb weten te bereiken. Dit aangezien ik niet zo goed ben in coderen. Ik heb erg veel geleerd, waaronder ook geduld en even rustig kijken naar waar je nou eigenlijk mee bezig bent. Ik wilde het vaak te snel gedaan hebben, waardoor ik de simpelste dingen over het hoofd zag. Ook het coderen zelf gaat me veel gemakkelijker af. Ook heb ik geleerd dat je altijd feedback kunt vragen als je vastloopt. Dit kan op school maar ook online is er veel te vinden, wat je zou kunnen helpen. Wat ik vooral heb geleerd is dat door steeds meer te oefenen, het steeds een beetje beter gaat. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  <img src="readme-images/bummer_navigatie.png" width="375px" alt="bummer">
+De navigatie is uiteindelijk semi gelukt. Hij is wel responsive, maar de border right en de centrering is me uiteindelijk niet gelukt. Als ik zei dat er geen border right moest zijn, bleef deze wel staan. Ik vond het repsonsive maken erg lastig, maar ben alsnog blij met hoe ver ik gekomen ben. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/bummer_fieldset.png" width="375px" alt="bummer">
+Graag had ik de fieldset wat verbeterd qua werking. Hij werkt nu wel, maar de button + en - staat er bij voor het uiterlijk, en niet de werking. Toen ik in de les vroeg hoe ik dit kon laten werken, kreeg ik te horen dat ik het uberhaupt helemaal niet zou hoeven toevoegen, maar ik wilde het toch proberen. Uiteindelijk is het uiterlijk op een klein scherm wel gelukt, maar op de grotere wat minder. 
+
+  <img src="readme-images/bummer_span.png" width="375px" alt="bummer">
+Ik had als tip gekregen dat je een span kan toevoegen en deze dan met een class ontzichtbaar kunt maken. Dit heb ik op een aantal plekken gedaan, maar het blijkt niet te werken als ik mijn screenreader laat praten.
+
 </details>
 
 
@@ -326,12 +364,9 @@ Voordat ik aan de slag ga met css voor mijn tweede pagina, ga ik de css goed sor
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
 
   1. https://www.youtube.com/watch?v=B_wscu_ijwU&t=205s (dropdown menu)
   2. https://blog.hubspot.com/website/center-an-image-in-html#HowtoCenterHorizontally
-  3. ...
+  3. Docent en studentassistent 
 
 </details>
